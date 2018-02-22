@@ -21,7 +21,7 @@ public class Rule024_SupressWarning {
 	
 	public static <T> T[] toArrayWithSuppressWarning(T[] a, T[] b, int size ) {
 		if( a.length < size ) {
-			// T[] 지역변수에 @SuppressWarnings 를 사용하여 범위를 최소화
+			// 메서드 전체가 아니라 T[] 지역변수에 @SuppressWarnings 를 사용하여 범위를 최소화
 			@SuppressWarnings("unchecked")
 			T[] result = (T[])Arrays.copyOf( b,  size, a.getClass() );
 			return result;			
