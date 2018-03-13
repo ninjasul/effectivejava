@@ -1,6 +1,6 @@
-package chap05.generic;
+package chap06.enumeration;
 
-public class Rule031_Enum_PayrollDay {
+public class Rule030_Enum_PayrollDay {
 	enum PayrollDay {
 		MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY, HOLIDAY;
 		

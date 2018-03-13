@@ -1,9 +1,9 @@
-package chap05.generic;
+package chap06.enumeration;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Rule031_Enum_Operation {
+public class Rule030_Enum_Operation {
 	
   
 	public enum Operation {
