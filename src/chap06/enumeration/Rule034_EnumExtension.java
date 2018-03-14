@@ -3,7 +3,7 @@ package chap06.enumeration;
 import java.util.Arrays;
 import java.util.Collection;
 
-public class Rule034_EnumInterface {
+public class Rule034_EnumExtension {
 	public interface Operation {
 		double apply(double x, double y);
 	}
